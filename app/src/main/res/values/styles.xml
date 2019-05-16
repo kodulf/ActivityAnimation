@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:activityOpenEnterAnimation">@anim/anim1</item>-->
+        <!--<item name="android:activityOpenExitAnimation">@anim/anim2</item>-->
+        <!--<item name="android:activityCloseEnterAnimation">@anim/anim3</item>-->
+        <!--<item name="android:activityCloseExitAnimation">@anim/anim4</item>-->
+
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+
+        <!--<item name="android:windowEnterAnimation">@null</item>-->
+        <!--<item name="android:windowExitAnimation">@null</item>-->
+        <!--<item name="android:windowHideAnimation">@null</item>-->
+        <!--<item name="android:windowShowAnimation">@null</item>-->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Animation">
+        <!--<item name="android:activityOpenEnterAnimation">@null</item>-->
+        <!--<item name="android:activityOpenExitAnimation">@null</item>-->
+        <!--<item name="android:activityCloseEnterAnimation">@null</item>-->
+        <!--<item name="android:activityCloseExitAnimation">@null</item>-->
+        <!--<item name="android:taskOpenEnterAnimation">@null</item>-->
+        <!--<item name="android:taskOpenExitAnimation">@null</item>-->
+        <!--<item name="android:taskCloseEnterAnimation">@null</item>-->
+        <!--<item name="android:taskCloseExitAnimation">@null</item>-->
+        <!--<item name="android:taskToFrontEnterAnimation">@null</item>-->
+        <!--<item name="android:taskToFrontExitAnimation">@null</item>-->
+        <!--<item name="android:taskToBackEnterAnimation">@null</item>-->
+        <!--<item name="android:taskToBackExitAnimation">@null</item>-->
+
+        <item name="android:activityOpenEnterAnimation">@anim/animation_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/animation_open_exit</item>
+        <!--<item name="android:activityOpenExitAnimation">@null</item>-->
+        <item name="android:activityCloseEnterAnimation">@anim/anim3</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim4</item>
+    </style>
+
+</resources>
